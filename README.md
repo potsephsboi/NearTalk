@@ -26,3 +26,7 @@ Open the project in Android Studio. Install NDK **30.0.16248370** and CMake **3.
 - **1–1 conversations:** Once connected, messages travel over a TCP socket directly between the phones. They do not wait for service discovery, so the broadcast discovery delay does not apply.
 - **Privacy:** Broadcast messages are public and unencrypted. The 1–1 connection is encrypted, but peer identity is not verified; the current protocol does not prevent an active man-in-the-middle attack.
 - **Current limits:** Broadcast messages allow 180 UTF-8 bytes, and 1–1 messages allow 4096. Only the last three outgoing broadcasts remain advertised. One 1–1 connection is supported at a time, and discovery pauses during it. Messages are kept in memory; leaving the app closes the connection.
+
+
+### Preview
+<img width="900" height="582" alt="image" src="https://github.com/user-attachments/assets/93c1b1d8-c0b9-46bd-b852-be908c16f222" />
